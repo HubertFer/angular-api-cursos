@@ -8,6 +8,9 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
         }
       },
       "root": "",
@@ -30,6 +33,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +97,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d68ffe73-fd91-46f5-9e74-cf90cc0fd230"
   }
 }
